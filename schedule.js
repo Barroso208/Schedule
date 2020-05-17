@@ -24,3 +24,6 @@ dia6.onclick = function(){tachar(dia6);}
 dia7.onclick = function(){tachar(dia7);}
 dia8.onclick = function(){tachar(dia8);}
 dia9.onclick = function(){tachar(dia9);}
+var div = document.getElementById("div");
+let msg = "<p><b>Last modified:</b>" + document.lastModified+ "</p>";
+div.innerHTML = msg;
