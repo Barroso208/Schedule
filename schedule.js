@@ -7,14 +7,12 @@ const dia1 = document.getElementById("task"),
  dia7 = document.getElementById("task7"),
  dia8 = document.getElementById("task8"),
  dia9 = document.getElementById("task9");
-let i = 0;
+
  function tachar(dias){
-    if (i===0){
-        dias.style.textDecoration ="line-through";
-        i++
+    if (dias.getAttribute("class") == "task"){
+        dias.setAttribute("class","task1");
     }else{
-        dias.style.textDecoration = "none";
-        i--
+        dias.setAttribute("class","task");
     }
 }
 dia1.onclick = function(){tachar(dia1);}
