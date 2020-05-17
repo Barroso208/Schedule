@@ -21,11 +21,20 @@ body{
     align-items: center;
     justify-content: center;
 }
+h3{
+    background-color: #fff;
+}
 .div2{
     flex:2;
 }
 .task{
     font: bold 20px "Lato" ;
+    padding:0.5em 1em;
+}
+.task1{
+    text-decoration: line-through;
+    font: bold 20px "Lato" ;
+    padding:0.5em 1em;
 }
 .verde{
     color:rgb(0, 255, 0);
